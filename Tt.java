@@ -119,7 +119,16 @@ public class Quiz{
         perguntas[6].opcaoE = "E) Tequila";
         perguntas[6].correta = "D";
 
-
+        perguntas[7] = new Questao();
+        perguntas[7].pergunta = "Qual é o café mais caro do mundo?: ";
+        perguntas[7].opcaoA = "A) Café com Leite";
+        perguntas[7].opcaoB = "B) Café Expresso";
+        perguntas[7].opcaoC = "C) Café Mocha";
+        perguntas[7].opcaoD = "D) Café Kopi Luwak";
+        perguntas[7].opcaoE = "E) Café Cappuccino";
+        perguntas[7].correta = "D"; 
+        
+        
 
 
 
