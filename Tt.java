@@ -75,7 +75,38 @@ public class Quiz{
         perguntas[1].correta = "C"; 
 
         perguntas[2] = new Questao();
-        perguntas[2].pergunta = "Qual o nome da bebida mais consumida no mundo?: "
+        perguntas[2].pergunta = "Qual é a bebida mais consumida no mundo?: ";
+        perguntas[2].opcaoA = "A) Café";
+        perguntas[2].opcaoB = "B) Chá";
+        perguntas[2].opcaoC = "C) Água";
+        perguntas[2].opcaoD = "D) Leite";
+        perguntas[2].opcaoE = "E) Suco";
+        perguntas[2].correta = "C";
+
+        perguntas[3] = new Questao;
+        perguntas[3].pergunta = "Qual bebida é feita a partir da fermentação d milho?: ";
+        perguntas[3].opcaoA = "A) Cerveja";
+        perguntas[3].opcaoB = "B) Whisky";
+        perguntas[3].opcaoC = "C) Rum";
+        perguntas[3].opcaoD = "D) Pinga";
+        perguntas[3].opcaoE = "E) Chicha";
+        perguntas[3].correta = "E";
+
+        perguntas[4] = new Questão;
+        perguntas[4].pergunta = "Qual a principal bebida consumida na Alemanha?: ";
+        perguntas[4].opcaoA = "A) Vodak";
+        perguntas[4].opcaoB = "B) Vinho";
+        perguntas[4].opcaoC = "C) Cerveja";
+        perguntas[4].opcaoD = "D) Tequila";
+        perguntas[4].opcaoE = "E) Champgne";
+        perguntas[4].correta = "C";
+
+
+
+
+
+
+
+
 
 }
-
