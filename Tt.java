@@ -164,6 +164,44 @@ public class Quiz{
         perguntas[11].opcaoE = "E) Del Valle";
         perguntas[11].correta = "E";
 
+        perguntas[12] = new Questao();
+        perguntas[12].pergunta = "Qual é o nome do equipamento utilizado para filtrar o café?";
+        perguntas[12].opcaoA = "A) Cafeteira";
+        perguntas[12].opcaoB = "B) Filtro de café";
+        perguntas[12].opcaoC = "C) Moedor de café";
+        perguntas[12].opcaoD = "D) Torrefadora de café";
+        perguntas[12].opcaoE = "E) Filtro de água";
+        perguntas[12].correta = "B";
+
+        perguntas[13] = new Questao();
+        perguntas[13].pergunta = "Qual é o tipo de açúcar mais comumente utilizado na produção de refrigerantes?";
+        perguntas[13].opcaoA = "A) Açúcar branco";
+        perguntas[13].opcaoB = "B) Açúcar mascavo";
+        perguntas[13].opcaoC = "C) Açúcar de cana";
+        perguntas[13].opcaoD = "D) Açúcar de beterraba";
+        perguntas[13].opcaoE = "E) Xilitol";
+        perguntas[13].correta = "A";
+
+        perguntas[14] = new Questao();
+        perguntas[14].pergunta = "Qual é o nome do popular coquetel brasileiro feito com cachaça, limão e açúcar?";
+        perguntas[14].opcaoA = "A) Pilsner";
+        perguntas[14].opcaoB = "B) Stout";
+        perguntas[14].opcaoC = "C) IPA";
+        perguntas[14].opcaoD = "D) Pale Ale";
+        perguntas[14].opcaoE = "E) Caipirinha";
+        perguntas[14].correta = "E";
+
+        perguntas[15] = new Questao();
+        perguntas[15].pergunta = "Qual é o nome do popular chá verde japonês?: ";
+        perguntas[15].opcaoA = "A) Tropical";
+        perguntas[15].opcaoB = "B) Matcha";
+        perguntas[15].opcaoC = "C) Americano";
+        perguntas[15].opcaoD = "D) Tequilla";
+        perguntas[15].opcaoE = "E) Hortelã";
+        perguntas[15].correta = "B";
+
+
+
 
 
 
