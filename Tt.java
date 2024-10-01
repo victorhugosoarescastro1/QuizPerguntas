@@ -137,7 +137,14 @@ public class Quiz{
         perguntas[8].opcaoE = "E) Chá Oolong";
         perguntas[8].correta = "A";
 
-        
+        perguntas[9] = new Questao();
+        perguntas[9].pergunta = "Qual é a bebida energética mais popular no mundo?";
+        perguntas[9].opcaoA = "A) Red Bull";
+        perguntas[9].opcaoB = "B) Monster";
+        perguntas[9].opcaoC = "C) Rockstar";
+        perguntas[9].opcaoD = "D) 5-Hour Energy";
+        perguntas[9].opcaoE = "E) AMP";
+        perguntas[9].correta = "A";
 
 
 
