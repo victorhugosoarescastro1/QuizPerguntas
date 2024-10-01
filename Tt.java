@@ -110,6 +110,15 @@ public class Quiz{
         perguntas[5].opcaoE = "E) Rum";
         perguntas[5].correta = "D";
 
+        perguntas[6] = new Questao();
+        perguntas[6].pergunta = "Qual é a bebida fermentada feita a partir de uvas?: ";
+        perguntas[6].opcaoA = "A) Cerveja";
+        perguntas[6].opcaoB = "B) Whisky";
+        perguntas[6].opcaoC = "C) Vodka";
+        perguntas[6].opcaoD = "D) Vinho";
+        perguntas[6].opcaoE = "E) Tequila";
+        perguntas[6].correta = "D";
+
 
 
 
