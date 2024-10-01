@@ -200,12 +200,21 @@ public class Quiz{
         perguntas[15].opcaoE = "E) Hortelã";
         perguntas[15].correta = "B";
 
-        int acertos = 0;
-        int erros = 0;
-        
+        int corretas = 0;
+        int incorretas = 0;
 
+                for (int i = 0; i < 15; i++) {
+            perguntas[i].escrevaQuestao();
+            String resposta = perguntas[i].leiaResposta();
+            if (perguntas[i].isCorreta(resposta)) {
+                corretas++;
+            } else {
+                incorretas++;
+            }
+        }
 
-
-
-
+        System.out.println("Você acertou " + corretas + " perguntas!");
+        System.out.println("Você errou " + incorretas + " perguntas!");
+        System.out.println("Porcentagem de questões acertadas: " + (corretas * 100 / 15) + "%");
+    }
 }
