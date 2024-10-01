@@ -128,6 +128,15 @@ public class Quiz{
         perguntas[7].opcaoE = "E) Café Cappuccino";
         perguntas[7].correta = "D"; 
         
+        perguntas[8] = new Questao();
+        perguntas[8].pergunta = "Qual é o tipo de chá mais consumido no mundo?";
+        perguntas[8].opcaoA = "A) Chá Preto";
+        perguntas[8].opcaoB = "B) Chá Verde";
+        perguntas[8].opcaoC = "C) Chá Branco";
+        perguntas[8].opcaoD = "D) Chá Amarelo";
+        perguntas[8].opcaoE = "E) Chá Oolong";
+        perguntas[8].correta = "A";
+
         
 
 
