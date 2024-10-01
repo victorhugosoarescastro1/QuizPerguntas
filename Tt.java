@@ -146,6 +146,15 @@ public class Quiz{
         perguntas[9].opcaoE = "E) AMP";
         perguntas[9].correta = "A";
 
+        perguntas[10] = new Questao();
+        perguntas[10].pergunta = "Qual é o país que produz mais vinho no mundo?";
+        perguntas[10].opcaoA = "A) França";
+        perguntas[10].opcaoB = "B) Itália";
+        perguntas[10].opcaoC = "C) Espanha";
+        perguntas[10].opcaoD = "D) Portugal";
+        perguntas[10].opcaoE = "E) Chile";
+        perguntas[10].correta = "A";
+
 
 
 
