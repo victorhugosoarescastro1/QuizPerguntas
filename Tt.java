@@ -135,7 +135,7 @@ public class Quiz{
         perguntas[8].opcaoC = "C) Chá Branco";
         perguntas[8].opcaoD = "D) Chá Amarelo";
         perguntas[8].opcaoE = "E) Chá Oolong";
-        perguntas[8].correta = "A";
+        perguntas[8].correta = "B";
 
         perguntas[9] = new Questao();
         perguntas[9].pergunta = "Qual é a bebida energética mais popular no mundo?";
@@ -155,8 +155,14 @@ public class Quiz{
         perguntas[10].opcaoE = "E) Chile";
         perguntas[10].correta = "A";
 
-
-
+        perguntas[11] = new Questao();
+        perguntas[11].pergunta = "Qual é a marca de suco de laranja mais popular no Brasil?";
+        perguntas[11].opcaoA = "A) Tropicana";
+        perguntas[11].opcaoB = "B) Minute Maid";
+        perguntas[11].opcaoC = "C) Simply";
+        perguntas[11].opcaoD = "D) Dole";
+        perguntas[11].opcaoE = "E) Del Valle";
+        perguntas[11].correta = "E";
 
 
 
