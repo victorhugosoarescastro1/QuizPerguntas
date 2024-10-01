@@ -53,7 +53,7 @@ public class Questao {
         System.out.println();
     }
 
-class Quiz{
+public class Quiz{
     public static void main(String[] args) {
 
         System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
@@ -66,12 +66,16 @@ class Quiz{
         Questao[] perguntas = new Questao[15];
 
         perguntas[1] = new Questao();
-        perguntas[1].pergunta = "Qual o nome da bebida que também pode ser chamada de H20?:";
+        perguntas[1].pergunta = "Qual o nome da bebida que também pode ser chamada de H20?: ";
         perguntas[1].opcaoA = "A) Pepsi";
         perguntas[1].opcaoB = "B) Coca Cola";
         perguntas[1].opcaoC = "C) Água";
         perguntas[1].opcaoD = "D) Guaraná";
         perguntas[1].opcaoE = "E) Sprite";
         perguntas[1].correta = "C"; 
+
+        perguntas[2] = new Questao();
+        perguntas[2].pergunta = "Qual o nome da bebida mais consumida no mundo?: "
+
 }
 
