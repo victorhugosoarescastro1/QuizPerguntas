@@ -65,9 +65,8 @@ public class Questao {
             System.out.println("Turma: ESNB2");
             System.out.println("Aluno: Victor Hugo Soares Castro");
             System.out.println("Professor: Brenno Pimenta");
-            System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Curiosidade'!");
-            System.out.println(
-                    "Você responderá a 15 perguntas de múltipla escolha sobre curiosidades interessantes e divertidas.");
+            System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Consumo'!");
+            System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre consumo.");
             System.out.println();
 
             Questao[] perguntas = new Questao[15];
