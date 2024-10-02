@@ -57,6 +57,9 @@ public class Questao {
     public class Quiz {
         {
 
+            System.out.println(
+                    "||=========================================================================================||");
+
             System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
             System.out.println("Curso: Engenharia de Software");
             System.out.println("Turma: ESNB2");
@@ -220,6 +223,9 @@ public class Questao {
             System.out.println("Você acertou " + corretas + " perguntas!");
             System.out.println("Você errou " + incorretas + " perguntas!");
             System.out.println("Porcentagem de questões acertadas: " + (corretas * 100 / 15) + "%");
+
+            System.out.println(
+                    "||=========================================================================================||");
         }
     }
 }
