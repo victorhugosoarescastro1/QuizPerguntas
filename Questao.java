@@ -23,13 +23,14 @@ public class Questao {
     }
 
     public String leiaResposta() {
-        Scanner ler = new Scanner(System.in);
         String resp;
-        do {
-            System.out.println("Digite a resposta: ");
-            resp = ler.next();
-        } while (!respostaValida(resp));
-        return resp;
+        try (Scanner ler = new Scanner(System.in)) {
+            do {
+                System.out.println("Digite a resposta: ");
+                resp = ler.next();
+            } while (!respostaValida(resp));
+            return resp;
+        }
     }
 
     private boolean respostaValida(String resp) {
