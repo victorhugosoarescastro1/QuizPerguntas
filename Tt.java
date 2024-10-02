@@ -9,8 +9,8 @@ public class Questao {
     String opcaoE = "";
     String correta = "";
 
-    public boolean isCorreta(String resposta){
-        if(resposta.equalsIgnoreCase(this.correta)){
+    public boolean isCorreta(String resposta) {
+        if (resposta.equalsIgnoreCase(this.correta)) {
             System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
             System.out.println("");
             return true;
@@ -32,9 +32,9 @@ public class Questao {
         return resp;
     }
 
-    private boolean respostaValida(String resp){
-        if(resp.equalsIgnoreCase("A") || resp.equalsIgnoreCase("B") || resp.equalsIgnoreCase("C") ||
-                resp.equalsIgnoreCase("D") || resp.equalsIgnoreCase("E")){
+    private boolean respostaValida(String resp) {
+        if (resp.equalsIgnoreCase("A") || resp.equalsIgnoreCase("B") || resp.equalsIgnoreCase("C") ||
+                resp.equalsIgnoreCase("D") || resp.equalsIgnoreCase("E")) {
             return true;
         }
         System.out.println("Resposta inválida! Digite opção A, B, C, D ou E. ");
@@ -42,7 +42,7 @@ public class Questao {
         return false;
     }
 
-    public void escrevaQuestao(){
+    public void escrevaQuestao() {
         System.out.println(this.pergunta);
         System.out.println();
         System.out.println(this.opcaoA);
@@ -57,11 +57,13 @@ public class Quiz{
     public static void main(String[] args) {
 
         System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
+        System.out.println("Curso: Engenharia de Software");
+        System.out.println("Turma: ESNB2");
         System.out.println("Aluno: Victor Hugo Soares Castro");
         System.out.println("Professor: Brenno Pimenta");
         System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Curiosidade'!");
         System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre curiosidades interessantes e divertidas.");
-        System.out.println()
+        System.out.println();
 
         Questao[] perguntas = new Questao[15];
 
@@ -92,7 +94,7 @@ public class Quiz{
         perguntas[3].opcaoE = "E) Chicha";
         perguntas[3].correta = "E";
 
-        perguntas[4] = new Questão();
+        perguntas[4] = new Questao();
         perguntas[4].pergunta = "Qual a principal bebida consumida na Alemanha?: ";
         perguntas[4].opcaoA = "A) Vodak";
         perguntas[4].opcaoB = "B) Vinho";
