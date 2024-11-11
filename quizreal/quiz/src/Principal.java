@@ -1,7 +1,7 @@
 public class Principal {
     public static void main(String[] args) {
         Questao q1 = new Questao();
-        q1.pergunta="1- Qual a Indepência do Brasil?";
+        q1.pergunta="1- Qual a Indepência do Brasil????";
         q1.opcaoA="a - 1500";
         q1.opcaoB="b - 1709";
         q1.opcaoC="c - 1302";
