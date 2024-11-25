@@ -77,12 +77,12 @@ public class Principal {
         q5.isCorreta(resposta);
 
         Questao q6 = new Questao();
-        q6.pergunta ="5 - Quais são os nomes corretos da fases da lua?: ";
-        q6.opcaoA = "a - Nova, Crescente, Cheia e Mingua.";
-        q6.opcaoB = "b - Velha, Decrescente, Vazia e Minguante.";
-        q6.opcaoC = "c - Nova, Crescente, Vazia e Míngua.";
-        q6.opcaoD = "d - Nova, Crescente, Cheia e Minguante.";
-        q6.opcaoE = "e - Velha, Crescente, Cheia e Minguante.";
+        q6.pergunta ="6 - A crosta, o manto e o núcleo são camadas de qual planeta?: ";
+        q6.opcaoA = "a - Marte.";
+        q6.opcaoB = "b - Saturno";
+        q6.opcaoC = "c - Sol";
+        q6.opcaoD = "d - Terra";
+        q6.opcaoE = "e - Mercúrio";
         q6.correta = "d";
 
         q6.escrevaQuestao();
