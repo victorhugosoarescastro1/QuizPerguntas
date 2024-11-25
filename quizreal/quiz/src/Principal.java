@@ -1,13 +1,14 @@
 public class Principal {
     public static void main(String[] args) {
         Questao q1 = new Questao();
-        q1.pergunta="1- Qual a Indepência do Brasil?";
-        q1.opcaoA="a - 1500";
-        q1.opcaoB="b - 1709";
-        q1.opcaoC="c - 1302";
-        q1.opcaoD="d - ";
-        q1.opcaoE="e - 18";
-        q1.correta="e";
+
+        q1.pergunta = "1- Qual o maior planeta do Sistema Solar?: ";
+        q1.opcaoA = "a - Jupiter ";
+        q1.opcaoB = "b - Marte";
+        q1.opcaoC = "c - Mercúrio";
+        q1.opcaoD = "d - Terra";
+        q1.opcaoE = "e - Urano";
+        q1.correta = "a";
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
