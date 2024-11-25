@@ -1,7 +1,18 @@
 public class Principal {
     public static void main(String[] args) {
-        Questao q1 = new Questao();
 
+        System.out.println("||=========================================================================================||");
+
+        System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
+        System.out.println("Curso: Engenharia de Software");
+        System.out.println("Turma: ESNB2");
+        System.out.println("Aluno: Victor Hugo Soares Castro");
+        System.out.println("Professor: Brenno Pimenta");
+        System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Astronomia'!");
+        System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre astronomia.");
+        System.out.println();
+
+        Questao q1 = new Questao();
         q1.pergunta = "1- Qual o maior planeta do Sistema Solar?: ";
         q1.opcaoA = "a - Jupiter ";
         q1.opcaoB = "b - Marte";
