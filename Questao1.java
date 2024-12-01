@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Questao {
+public class Questao1 {
     String pergunta = "";
     String opcaoA = "";
     String opcaoB = "";
