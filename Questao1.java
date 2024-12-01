@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Questao1 {
+public class Questao {
     String pergunta = "";
     String opcaoA = "";
     String opcaoB = "";
@@ -69,162 +69,161 @@ public class Questao1 {
             System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre consumo.");
             System.out.println();
 
-            Questao[] perguntas = new Questao[15];
+                    Questao[] questoes = new Questao[15];
 
-            perguntas[1] = new Questao();
-            perguntas[1].pergunta = "Qual o nome da bebida que também pode ser chamada de H20?: ";
-            perguntas[1].opcaoA = "A) Pepsi";
-            perguntas[1].opcaoB = "B) Coca Cola";
-            perguntas[1].opcaoC = "C) Água";
-            perguntas[1].opcaoD = "D) Guaraná";
-            perguntas[1].opcaoE = "E) Sprite";
-            perguntas[1].correta = "C";
+        // Definindo as perguntas
+        questoes[0] = new Questao();
+        questoes[0].pergunta = "1- Qual o maior planeta do Sistema Solar?: ";
+        questoes[0].opcaoA = "a - Jupiter ";
+        questoes[0].opcaoB = "b - Marte";
+        questoes[0].opcaoC = "c - Mercúrio";
+        questoes[0].opcaoD = "d - Terra";
+        questoes[0].opcaoE = "e - Urano";
+        questoes[0].correta = "a";
 
-            perguntas[2] = new Questao();
-            perguntas[2].pergunta = "Qual é a bebida mais consumida no mundo?: ";
-            perguntas[2].opcaoA = "A) Café";
-            perguntas[2].opcaoB = "B) Chá";
-            perguntas[2].opcaoC = "C) Água";
-            perguntas[2].opcaoD = "D) Leite";
-            perguntas[2].opcaoE = "E) Suco";
-            perguntas[2].correta = "C";
+        questoes[1] = new Questao();
+        questoes[1].pergunta = "2 - Quantos planetas existem no Sistema Solar?: ";
+        questoes[1].opcaoA = "a - 11";
+        questoes[1].opcaoB = "b - 12";
+        questoes[1].opcaoC = "c - 5";
+        questoes[1].opcaoD = "d - 7";
+        questoes[1].opcaoE = "e - 8";
+        questoes[1].correta = "e";
 
-            perguntas[3] = new Questao();
-            perguntas[3].pergunta = "Qual bebida é feita a partir da fermentação d milho?: ";
-            perguntas[3].opcaoA = "A) Cerveja";
-            perguntas[3].opcaoB = "B) Whisky";
-            perguntas[3].opcaoC = "C) Rum";
-            perguntas[3].opcaoD = "D) Pinga";
-            perguntas[3].opcaoE = "E) Chicha";
-            perguntas[3].correta = "E";
+        questoes[2] = new Questao();
+        questoes[2].pergunta = "3 - Qual a estrela presente no Sistema Solar?: ";
+        questoes[2].opcaoA = "a - Lua";
+        questoes[2].opcaoB = "b - Sol";
+        questoes[2].opcaoC = "c - Buraco Negro";
+        questoes[2].opcaoD = "d - Aurora Boreal";
+        questoes[2].opcaoE = "e - BON 67";
+        questoes[2].correta = "b";
 
-            perguntas[4] = new Questao();
-            perguntas[4].pergunta = "Qual a principal bebida consumida na Alemanha?: ";
-            perguntas[4].opcaoA = "A) Vodak";
-            perguntas[4].opcaoB = "B) Vinho";
-            perguntas[4].opcaoC = "C) Cerveja";
-            perguntas[4].opcaoD = "D) Tequila";
-            perguntas[4].opcaoE = "E) Champgne";
-            perguntas[4].correta = "C";
+        questoes[3] = new Questao();
+        questoes[3].pergunta = "4 - Quantas estrelas existem no Universo Observável?: ";
+        questoes[3].opcaoA = "a - 1 bilhão 600 milhoes 934 mil";
+        questoes[3].opcaoB = "b - 23 milhões e 500 mil ";
+        questoes[3].opcaoC = "c - 27 elevado a sétima pontência ";
+        questoes[3].opcaoD = "d - 498 milhões ";
+        questoes[3].opcaoE = "e - 7 × 10 elevado a 22";
+        questoes[3].correta = "e";
 
-            perguntas[5] = new Questao();
-            perguntas[5].pergunta = "Qual é a bebida tradicional do Brasil feita a partir da cana-de-açúcar?: ";
-            perguntas[5].opcaoA = "A) Vodka";
-            perguntas[5].opcaoB = "B) Cerveja";
-            perguntas[5].opcaoC = "C) Vinho";
-            perguntas[5].opcaoD = "D) Cachaça";
-            perguntas[5].opcaoE = "E) Rum";
-            perguntas[5].correta = "D";
+        questoes[4] = new Questao();
+        questoes[4].pergunta = "5 - Quais são os nomes corretos das fases da lua?: ";
+        questoes[4].opcaoA = "a - Nova, Crescente, Cheia e Minguante.";
+        questoes[4].opcaoB = "b - Velha, Decrescente, Vazia e Minguante.";
+        questoes[4].opcaoC = "c - Nova, Crescente, Vazia e Míngua.";
+        questoes[4]. opcaoD = "d - Nova, Crescente, Cheia e Minguante.";
+        questoes[4].opcaoE = "e - Velha, Crescente, Cheia e Minguante.";
+        questoes[4].correta = "d";
 
-            perguntas[6] = new Questao();
-            perguntas[6].pergunta = "Qual é a bebida fermentada feita a partir de uvas?: ";
-            perguntas[6].opcaoA = "A) Cerveja";
-            perguntas[6].opcaoB = "B) Whisky";
-            perguntas[6].opcaoC = "C) Vodka";
-            perguntas[6].opcaoD = "D) Vinho";
-            perguntas[6].opcaoE = "E) Tequila";
-            perguntas[6].correta = "D";
+        questoes[5] = new Questao();
+        questoes[5].pergunta = "6 - A crosta, o manto e o núcleo são camadas de qual planeta?: ";
+        questoes[5].opcaoA = "a - Marte.";
+        questoes[5].opcaoB = "b - Saturno";
+        questoes[5].opcaoC = "c - Sol";
+        questoes[5].opcaoD = "d - Terra";
+        questoes[5].opcaoE = "e - Mercúrio";
+        questoes[5].correta = "d";
 
-            perguntas[7] = new Questao();
-            perguntas[7].pergunta = "Qual é o café mais caro do mundo?: ";
-            perguntas[7].opcaoA = "A) Café com Leite";
-            perguntas[7].opcaoB = "B) Café Expresso";
-            perguntas[7].opcaoC = "C) Café Mocha";
-            perguntas[7].opcaoD = "D) Café Kopi Luwak";
-            perguntas[7].opcaoE = "E) Café Cappuccino";
-            perguntas[7].correta = "D";
+        questoes[6] = new Questao();
+        questoes[6].pergunta = "7 - Qual o nome dado à morte de uma estrela? ";
+        questoes[6].opcaoA = "a - Morte Nuclear";
+        questoes[6].opcaoB = "b - Explosão Vermelha";
+        questoes[6].opcaoC = "c - SuperNova";
+        questoes[6].opcaoD = "d - Império";
+        questoes[6].opcaoE = "e - HiperEstrela";
+        questoes[6].correta = "c";
 
-            perguntas[8] = new Questao();
-            perguntas[8].pergunta = "Qual é o tipo de chá mais consumido no mundo?";
-            perguntas[8].opcaoA = "A) Chá Preto";
-            perguntas[8].opcaoB = "B) Chá Verde";
-            perguntas[8].opcaoC = "C) Chá Branco";
-            perguntas[8].opcaoD = "D) Chá Amarelo";
-            perguntas[8].opcaoE = "E) Chá Oolong";
-            perguntas[8].correta = "B";
+        questoes[7] = new Questao();
+        questoes[7].pergunta = "8 - Qual é o nome da primeira missão de viagem à Lua? ";
+        questoes[7].opcaoA = "a - Apollo 11.";
+        questoes[7].opcaoB = "b - Operação Espacial.";
+        questoes[7].opcaoC = "c - Corrida Armamentista.";
+        questoes[7].opcaoD = "d - Apolo 73.";
+        questoes[7].opcaoE = "e - Novo Horizonte.";
+        questoes[7].correta = "a";
 
-            perguntas[9] = new Questao();
-            perguntas[9].pergunta = "Qual é a bebida energética mais popular no mundo?";
-            perguntas[9].opcaoA = "A) Red Bull";
-            perguntas[9].opcaoB = "B) Monster";
-            perguntas[9].opcaoC = "C) Rockstar";
-            perguntas[9].opcaoD = "D) 5-Hour Energy";
-            perguntas[9].opcaoE = "E) AMP";
-            perguntas[9].correta = "A";
+        questoes[8] = new Questao();
+        questoes[8].pergunta = "9 - Qual foi o primeiro Homem a pisar na Lua?: ";
+        questoes[8].opcaoA = "a - Michael Collins.";
+        questoes[8].opcaoB = "b - Sérgio Sacani.";
+        questoes[8].opcaoC = "c - Vinicius Júnior";
+        questoes[8].opcaoD = "d - Edwin 'Buzz' Aldrin.";
+        questoes[8].opcaoE = "e - Neil Armstrong.";
+        questoes[8].correta = "e";
 
-            perguntas[10] = new Questao();
-            perguntas[10].pergunta = "Qual é o país que produz mais vinho no mundo?";
-            perguntas[10].opcaoA = "A) França";
-            perguntas[10].opcaoB = "B) Itália";
-            perguntas[10].opcaoC = "C) Espanha";
-            perguntas[10].opcaoD = "D) Portugal";
-            perguntas[10].opcaoE = "E) Chile";
-            perguntas[10].correta = "A";
+        questoes[9] = new Questao();
+        questoes[9].pergunta = "10 - Qual a principal composição de um cometa?: ";
+        questoes[9].opcaoA = "a - Poeira cósmica, enxofre, calcário, cálcio e metais sedimentar.";
+        questoes[9].opcaoB = "b - Hidrogênio, hélio, metais sólidos e ozônio.";
+        questoes[9].opcaoC = "c - Rochas, ouro, silício e gelo.";
+        questoes[9].opcaoD = "d - Gelo, poeira cósmica, fragmentos rochosos e compostos orgânicos.";
+        questoes[9].opcaoE = "e - Poeira cósmica, enxofre e metais líquidos.";
+        questoes[9].correta = "d";
 
-            perguntas[11] = new Questao();
-            perguntas[11].pergunta = "Qual é a marca de suco de laranja mais popular no Brasil?";
-            perguntas[11].opcaoA = "A) Tropicana";
-            perguntas[11].opcaoB = "B) Minute Maid";
-            perguntas[11].opcaoC = "C) Simply";
-            perguntas[11].opcaoD = "D) Dole";
-            perguntas[11].opcaoE = "E) Del Valle";
-            perguntas[11].correta = "E";
+        questoes[10] = new Questao();
+        questoes[10].pergunta = "11 - Quais destes planetas do sistema solar podem ter chuvas de diamantes?: ";
+        questoes[10].opcaoA = "a - Vênus, Marte, Júpiter e Urano.";
+        questoes[10].opcaoB = "b - Júpiter, Saturno, Urano e Netuno.";
+        questoes[10].opcaoC = "c - Mercúrio e Vênus.";
+        questoes[10].opcaoD = "d - Netuno e Marte.";
+        questoes[10].opcaoE = "e - Urano, Netuno, Júpiter.";
+        questoes[10].correta = "b";
 
-            perguntas[12] = new Questao();
-            perguntas[12].pergunta = "Qual é o nome do equipamento utilizado para filtrar o café?";
-            perguntas[12].opcaoA = "A) Cafeteira";
-            perguntas[12].opcaoB = "B) Filtro de café";
-            perguntas[12].opcaoC = "C) Moedor de café";
-            perguntas[12].opcaoD = "D) Torrefadora de café";
-            perguntas[12].opcaoE = "E) Filtro de água";
-            perguntas[12].correta = "B";
+        questoes[11] = new Questao();
+        questoes[11].pergunta = "12 - Quais os fatores que influenciam para que os planetas sejam redondos?: ";
+        questoes[11].opcaoA = "a - Composição do planeta e a força da gravidade";
+        questoes[11].opcaoB = "b - Velha, Decrescente, Vazia e Minguante.";
+        questoes[11].opcaoC = "c - Período de rotação do planeta e vácuo.";
+        questoes[11].opcaoD = "d - Órbita de translação e sedimentar do planeta";
+        questoes[11].opcaoE = "e - Força da atração da gravidade e massa do planeta";
+        questoes[11].correta = "e";
 
-            perguntas[13] = new Questao();
-            perguntas[13].pergunta = "Qual é o tipo de açúcar mais comumente utilizado na produção de refrigerantes?";
-            perguntas[13].opcaoA = "A) Açúcar branco";
-            perguntas[13].opcaoB = "B) Açúcar mascavo";
-            perguntas[13].opcaoC = "C) Açúcar de cana";
-            perguntas[13].opcaoD = "D) Açúcar de beterraba";
-            perguntas[13].opcaoE = "E) Xilitol";
-            perguntas[13].correta = "A";
+        questoes[12] = new Questao();
+        questoes[12].pergunta = "13 - O Sol é?: ";
+        questoes[12].opcaoA = "a - Estrela velha.";
+        questoes[12].opcaoB = "b - Estrela de meia idade.";
+        questoes[12].opcaoC = "c - Estrela Nova.";
+        questoes[12].opcaoD = "d - Foto Estrela.";
+        questoes[12].opcaoE = "e - HiperNova.";
+        questoes[12].correta = "b";
 
-            perguntas[14] = new Questao();
-            perguntas[14].pergunta = "Qual é o nome do popular coquetel brasileiro feito com cachaça, limão e açúcar?";
-            perguntas[14].opcaoA = "A) Pilsner";
-            perguntas[14].opcaoB = "B) Stout";
-            perguntas[14].opcaoC = "C) IPA";
-            perguntas[14].opcaoD = "D) Pale Ale";
-            perguntas[14].opcaoE = "E) Caipirinha";
-            perguntas[14].correta = "E";
+        questoes[13] = new Questao();
+        questoes[13].pergunta = "14 - Qual é a velocidade da luz, aproximadamente?: ";
+        questoes[13].opcaoA = "a - 500.000 km/s.";
+        questoes[13].opcaoB = "b - 300.000 km/s.";
+        questoes[13].opcaoC = "c - 500.000 km/h.";
+        questoes[13].opcaoD = "d - 1.000.000 km/h.";
+        questoes[13].opcaoE = "e - N/D.";
+        questoes[13].correta = "b";
 
-            perguntas[15] = new Questao();
-            perguntas[15].pergunta = "Qual é o nome do popular chá verde japonês?: ";
-            perguntas[15].opcaoA = "A) Tropical";
-            perguntas[15].opcaoB = "B) Matcha";
-            perguntas[15].opcaoC = "C) Americano";
-            perguntas[15].opcaoD = "D) Tequilla";
-            perguntas[15].opcaoE = "E) Hortelã";
-            perguntas[15].correta = "B";
+        questoes[14] = new Questao();
+        questoes[14].pergunta = "15 - Qual é a maior estrela já encontrada, em tamanho?: ";
+        questoes[14].opcaoA = "a - LBV 1806-20 (Sagitário).";
+        questoes[14].opcaoB = "b - R136a1 (Nebulosa da Tarântula).";
+        questoes[14].opcaoC = "c - VY Canis Majoris (Cão Maior).";
+        questoes[14].opcaoD = "d - Antares (Escorpião).";
+        questoes[14].opcaoE = "e - Sol.";
+        questoes[14].correta = "c";
 
-            int corretas = 0;
-            int incorretas = 0;
-
-            for (int i = 0; i < 15; i++) {
-                perguntas[i].escrevaQuestao();
-                String resposta = perguntas[i].leiaResposta();
-                if (perguntas[i].isCorreta(resposta)) {
-                    corretas++;
-                } else {
-                    incorretas++;
-                }
+        // Loop para responder as perguntas
+        for (Questao questao : questoes) {
+            questao.escrevaQuestao();
+            String resposta = questao.leiaResposta();
+            if (questao.isCorreta(resposta)) {
+                acertos++;
+            } else {
+                erros++;
             }
-
-            System.out.println("Você acertou " + corretas + " perguntas!");
-            System.out.println("Você errou " + incorretas + " perguntas!");
-            System.out.println("Porcentagem de questões acertadas: " + (corretas * 100 / 15) + "%");
-
-            System.out.println(
-                    "||=========================================================================================||");
         }
+
+        // Cálculo da porcentagem de acertos
+        double porcentagem = (acertos / 15.0) * 100;
+
+        // Exibindo resultados
+        System.out.println("Você acertou " + acertos + " perguntas.");
+        System.out.println("Você errou " + erros + " perguntas.");
+        System.out.printf("Sua porcentagem de acertos é: %.2f%%\n", porcentagem);
     }
 }
