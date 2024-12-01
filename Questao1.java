@@ -57,21 +57,23 @@ public class Questao {
     public class Quiz {
         {
 
-            System.out.println(
+            int acertos = 0;
+            int erros = 0;
+
+        System.out.println(
                     "||=========================================================================================||");
 
-            System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
-            System.out.println("Curso: Engenharia de Software");
-            System.out.println("Turma: ESNB2");
-            System.out.println("Aluno: Victor Hugo Soares Castro");
-            System.out.println("Professor: Brenno Pimenta");
-            System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Consumo'!");
-            System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre consumo.");
-            System.out.println();
+        System.out.println("Faculdade: Centro Universitário - Alfredo Nasser");
+        System.out.println("Curso: Engenharia de Software");
+        System.out.println("Turma: ESNB2");
+        System.out.println("Aluno: Victor Hugo Soares Castro");
+        System.out.println("Professor: Brenno Pimenta");
+        System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Consumo'!");
+        System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre consumo.");
+        System.out.println();
 
                     Questao[] questoes = new Questao[15];
 
-        // Definindo as perguntas
         questoes[0] = new Questao();
         questoes[0].pergunta = "1- Qual o maior planeta do Sistema Solar?: ";
         questoes[0].opcaoA = "a - Jupiter ";
@@ -207,7 +209,6 @@ public class Questao {
         questoes[14].opcaoE = "e - Sol.";
         questoes[14].correta = "c";
 
-        // Loop para responder as perguntas
         for (Questao questao : questoes) {
             questao.escrevaQuestao();
             String resposta = questao.leiaResposta();
@@ -218,12 +219,12 @@ public class Questao {
             }
         }
 
-        // Cálculo da porcentagem de acertos
+
         double porcentagem = (acertos / 15.0) * 100;
 
-        // Exibindo resultados
         System.out.println("Você acertou " + acertos + " perguntas.");
         System.out.println("Você errou " + erros + " perguntas.");
         System.out.printf("Sua porcentagem de acertos é: %.2f%%\n", porcentagem);
     }
+}
 }
