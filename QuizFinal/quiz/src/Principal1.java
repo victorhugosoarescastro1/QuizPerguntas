@@ -12,8 +12,8 @@
         System.out.println("Turma: ESNB2");
         System.out.println("Aluno: Victor Hugo Soares Castro");
         System.out.println("Professor: Brenno Pimenta");
-        System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Consumo'!");
-        System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre consumo.");
+        System.out.println("Bem-vindo ao quiz de 15 perguntas sobre o tema 'Astronomia'!");
+        System.out.println("Você responderá a 15 perguntas de múltipla escolha sobre Astronomia.");
         System.out.println();
 
                     Questao[] questoes = new Questao[15];
@@ -165,7 +165,10 @@
 
         double porcentagem = (acertos / 15.0) * 100;
 
-
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
         System.out.println("||===========================================================||");
 
         System.out.println("Você acertou " + acertos + " perguntas.");
@@ -173,5 +176,9 @@
         System.out.printf("Sua porcentagem de acertos é: %.2f%%\n", porcentagem);
 
         System.out.println("||===========================================================||");
+
+        System.out.println("");
+        System.out.println("");
+
     }
 }
