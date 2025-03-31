@@ -42,7 +42,7 @@ public class Questao {
         return false;
     }
 
-    public void escrevaQuestao(){
+    public void escrevaQuestao() {
         System.out.println(this.pergunta);
         System.out.println();
         System.out.println(this.opcaoA);
@@ -51,6 +51,24 @@ public class Questao {
         System.out.println(this.opcaoD);
         System.out.println(this.opcaoE);
         System.out.println();
-    }
 
+    public class Questao implements Validador{
+
+        protected String pergunta;
+        protected String respostaCorreta;
+
+    public Questao(String pergunta, String respostaCorreta) {
+            this.pergunta = pergunta;
+            this.respostaCorreta = respostaCorreta;
+        }
+
+        public void exibirQuestao () {
+            System.out.println(pergunta);
+        }
+
+        @Override
+        public boolean validarResposta (String resposta){
+            return resposta.equalsIgnoreCase(respostaCorreta);
+        }
+    }
 }
